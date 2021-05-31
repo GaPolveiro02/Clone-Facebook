@@ -12,7 +12,7 @@
     <header>
         <div class="above-menu-options">
             <span><i class="fab fa-facebook"></i></span>
-            <input type="text">
+            <input type="text" placeholder="">
         </div>
         <div class="above-midle-menu">
             <span><i class="fas fa-home"></i></span>
@@ -22,24 +22,37 @@
             <span><i class="fas fa-gamepad"></i></span>
         </div>
         <div class="above-contacts-user">
-            <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
-            <span>user</span>
+            <div class="user-i">
+                <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
+                <a href="">User</a>
+            </div>
             <span><i class="fas fa-plus-circle"></i></span>
             <span><i class="fab fa-facebook-messenger"></i></span>
+            <span><i class="fas fa-bell"></i></span>
             <span><i class="fas fa-chevron-circle-down"></i></span>
         </div>
     </header>
 
     <div class="container-2">
         <div class="menu-options">
-                <span><a href=""><img src="http://www.colegiodepadua.com.br/img/user.png" alt="">Fulano de tal</a></span>
-                <span><a href=""><i class="fas fa-tv"></i>  Watch</a></span>
-                <span><a href=""><i class="far fa-calendar-times"></i>  Events</a></span>
-                <span><a href=""><i class="fas fa-user-friends"></i> Friends</a></span>
-                <span><a href=""><i class="fas fa-bookmark"></i> Memories</a></span>
-                <button>See more</button>
+                <a href=""><img src="http://www.colegiodepadua.com.br/img/user.png" alt=""><span>Fulano de tal</span></a>
+                <a href=""><i class="fas fa-tv"></i><span>Watch</span></a>
+                <a href=""><i class="fas fa-user-friends"></i><span>Friends</span></a>
+                <a href=""><i class="fas fa-bookmark"></i><span>Bookmark</span></a>
+                <a href=""><i class="fas fa-store"></i><span>Marketplace</span></a>
+                <a href=""><i class="far fa-calendar-times"></i><span>Events</span></a>
+                <a href=""><i class="fas fa-clock"></i><span>Memories</span></a>
+                <a href=""><i class="fas fa-chevron-circle-down"></i><span>See more</span></a>
         </div>
         <div class="midle">
+            <div class="storys">
+                <div class="container-box"></div>
+                <div class="container-box"></div>
+                <div class="container-box"></div>
+                <div class="container-box"></div>
+                <div class="container-box"></div>
+                <div class="container-box"></div>
+            </div>
             <div class="make-a-post">
                 <div class="messeage">
                     <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
@@ -54,10 +67,18 @@
             <div class="others-post">
                 <ul>
                     <li>
-                        <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
+                        
                         <div class="others-post-user">
-                            <span><a href="">Users Name</a></span>
-                            <span>5hr . <i class="fas fa-user-friends"></i></span>
+                            <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
+                            <div class="user-header">
+                                <span><a href="">Users Name</a></span>
+                                <span>5hr . <i class="fas fa-user-friends"></i></span>
+                            </div>
+                        </div>
+                        <div class="users-reaction">
+                            <a href=""><span><i class="far fa-thumbs-up"></i></span>Like</a>
+                            <a href=""><span><i class="fas fa-comment-alt"></i></span>Comment</a>
+                            <a href=""><span><i class="fas fa-share"></i></span>Share</a>
                         </div>     
                     </li>
                 </ul>
@@ -65,14 +86,19 @@
         </div>
         <div class="contact-users">
             <div class="contacts-header">
-                <span>contacts</span>
+                <span>Contacts</span>
+                <div class="contacts-header-icons">
+                <span><a href=""><i class="fas fa-video"></i></a></span>
+                <span><a href=""><i class="fas fa-search"></i></a></span>
+                <span><a href=""><i class="fas fa-angle-double-right"></i></a></span>
+                </div>
             </div>
-          <div class="contact-list">
-               <!-- for each contact -->
-           <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
-           <span><a href="">Amigo do Fulano</a></span>
-           <!-- end of each contact -->
-          </div>
+            <div class="contact-list">
+                <!-- for each contact -->
+                <img src="http://www.colegiodepadua.com.br/img/user.png" alt="">
+                <span><a href="">Amigo do Fulano</a></span>
+                <!-- end of each contact -->
+            </div>
         </div>
     </div>
 </body>
